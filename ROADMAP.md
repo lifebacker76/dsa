@@ -1,6 +1,6 @@
 # DSA Learning Roadmap (Python)
 
-> For someone with a Data Analyst background transitioning into DSA & problem-solving.
+> A structured, visual, hands-on guide to mastering Data Structures & Algorithms.
 
 ---
 
@@ -9,11 +9,11 @@
 Each folder contains a **Jupyter notebook** you can run cell-by-cell.
 Every notebook follows the same pattern:
 
-1. **Concept** — visual explanation with diagrams
+1. **Concept** — visual explanation with ASCII diagrams and analogies
 2. **Implementation** — build the data structure / algorithm from scratch
 3. **Walkthrough** — step-by-step trace of how it works
-4. **Practice Problems** — easy → medium, with hints and solutions
-5. **Real-World Connection** — how this relates to data/analytics work
+4. **Core Problems** — easy → medium → hard, with full explanations
+5. **Pattern Cheat Sheet** — quick reference for solving similar problems
 
 ---
 
@@ -291,13 +291,13 @@ Every notebook follows the same pattern:
 
 ---
 
-## Tips for Data Analysts
+## Tips for Learning DSA
 
-1. **You already know more than you think** — pandas uses hash maps, SQL JOINs are graph problems, window functions are like sliding window patterns.
-2. **Think in terms of data flow** — just like ETL pipelines, algorithms transform input data step-by-step.
-3. **Visualize everything** — draw arrays, draw pointers, draw trees. Use the notebook cells to print intermediate states.
-4. **Don't memorize — understand the pattern** — there are ~15 core patterns that cover 90% of problems.
-5. **Track your progress** — use the `practice_log/` folder to log problems you solve.
+1. **Don't memorize — understand the pattern.** There are ~15 core patterns that cover 90% of problems. Learn the pattern, not the solution.
+2. **Visualize everything.** Draw arrays, draw pointers, draw trees. Use the notebook cells to print intermediate states.
+3. **Trace by hand first.** Before coding, walk through the algorithm on paper with a small example.
+4. **Start easy, then level up.** Solve the Easy version of a pattern before attempting Medium/Hard.
+5. **Track your progress.** Use the `practice_log/` folder to log problems you solve.
 
 ---
 
